@@ -7,8 +7,9 @@ fun main() {
     println(orderList)
     println(textForThanks)
 
-//    val listEmployees: Short = 2000
-    val listEmployees: Short = 1999
+    var listEmployees: Short = 2000
+    println(listEmployees)
+    listEmployees = 1999
     println(listEmployees)
 
 }
