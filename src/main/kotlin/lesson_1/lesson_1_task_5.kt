@@ -2,8 +2,10 @@ package lesson_1
 
 fun main() {
 
-    val second = "00"
-    val minute = "48"
-    val hour = "01"
-    print(hour + ":" + minute + ":" + second)
+    var second: Int = 6480
+    val minute: Int = second / 60 - 60
+    val hour: Int = second / 3600
+    second = second % 60
+    println("0" + hour + ":" + minute + ":" + "0" + second)
+
 }
