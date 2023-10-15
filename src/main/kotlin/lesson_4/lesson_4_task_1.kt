@@ -4,7 +4,9 @@ fun main() {
     val tomorrow = 13 - 4
     val availabilityToday = today < 13
     val availabilityTomorrow = tomorrow < 13
-    println("Доступность столиков на сегодня: $availabilityToday")
-    println("Доступность столиков на завтра: $availabilityTomorrow")
+    println(
+        "Доступность столиков на сегодня: $availabilityToday\n" +
+                "Доступность столиков на завтра: $availabilityTomorrow"
+    )
 
 }
