@@ -1,12 +1,12 @@
 fun main() {
 
-    val today = 13
-    val tomorrow = 9
-    val availabilityToday = today < NUMBER_OF_TABLES
-    val availabilityTomorrow = tomorrow < NUMBER_OF_TABLES
+    val reservedTablesToday = 13
+    val reservedTablesTommorow = 9
+    val availabilityTablesToday = reservedTablesToday < NUMBER_OF_TABLES
+    val availabilityTablesTomorrow = reservedTablesTommorow < NUMBER_OF_TABLES
     println(
-        "Доступность столиков на сегодня: $availabilityToday\n" +
-                "Доступность столиков на завтра: $availabilityTomorrow"
+        "Доступность столиков на сегодня: $availabilityTablesToday\n" +
+                "Доступность столиков на завтра: $availabilityTablesTomorrow"
     )
 
 }
