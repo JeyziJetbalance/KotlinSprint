@@ -1,17 +1,15 @@
 fun main() {
 
     val trainingDay = 5
-    val handsAndPress = trainingDay % 2
-    val legsAndBack = trainingDay % 2
-    val firstPart = handsAndPress != 0
-    val secondPart = legsAndBack == 0
+    val isEven = trainingDay % 2 == 0
+    val isOdd = !isEven
 
     println(
         """
-        |Упражнения для рук: $firstPart
-        |Упражнения для ног: $secondPart
-        |Упражнения для спины: $secondPart
-        |Упражнения для пресса: $firstPart
+        |Упражнения для рук: $isOdd
+        |Упражнения для ног: $isEven
+        |Упражнения для спины: $isEven
+        |Упражнения для пресса: $isOdd
     """.trimMargin()
     )
 
