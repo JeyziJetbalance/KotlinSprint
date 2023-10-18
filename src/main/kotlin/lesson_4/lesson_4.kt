@@ -1,3 +1,4 @@
+/*
 fun main() {
 
     // логические операторы
@@ -33,3 +34,4 @@ fun main() {
 const val RETIREMENT_AGE = 65
 const val AGE_OF_MAJORITY = 18
 
+*/
