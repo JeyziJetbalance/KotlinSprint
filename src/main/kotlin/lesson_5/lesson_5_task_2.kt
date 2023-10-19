@@ -1,7 +1,7 @@
 
 fun main() {
 
-    val userAge = readLine()!!.toInt()
+    val userAge = readln().toInt()
     val currentYear = 2023
     val resultSubtraction = currentYear - userAge
 
