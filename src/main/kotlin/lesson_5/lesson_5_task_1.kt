@@ -4,7 +4,7 @@ fun main() {
     val secondTerm = 8
     val resultAddition = firstTerm + secondTerm
     println("Напишите результат математического примера на сложение: $firstTerm + $secondTerm")
-    val answer = readLine()!!.toInt()
+    val answer = readln().toInt()
 
     val resultVerification = if (answer == resultAddition) "Добро пожаловать!"
     else "Доступ запрещен."
