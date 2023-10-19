@@ -3,9 +3,9 @@ import kotlin.random.Random
 fun main() {
 
     println("Введите 1 счастливое число: (от нуля до 42 включительно)")
-    val firstNumberInConsole = readLine()!!.toInt()
+    val firstNumberInConsole = readln().toInt()
     println("Введите 2 счастливое число: (от нуля до 42 включительно)")
-    val secondNumberInConsole = readLine()!!.toInt()
+    val secondNumberInConsole = readln().toInt()
     val firstRandomNumber = (0..42).random()
     val secondRandomNumber = (0..42).random()
 
