@@ -7,18 +7,23 @@ fun main() {
 
     var counter = 0
 
-    while (counter == 0) {
+    while (counter < 3) {
 
         print("Введите логин: ")
         var loginVerification = readln()
         print("Введите пароль: ")
         val passwordVerification = readln()
 
-        if ((loginVerification != login) || (passwordVerification != password)) println("Данные не верны.")
-        else {
+        if ((loginVerification != login) || (passwordVerification != password)) {
+            println("Данные не верны.")
             counter++
-            println("Добро пожаловать.")
         }
+        else {
+            println("Добро пожаловать.")
+            return
+        }
+
+        if (counter == 3) println("Доступ запрещен, вы ввели данные неверно 3 раза подряд.")
 
     }
 }
